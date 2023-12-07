@@ -1,0 +1,91 @@
+.secondTaskPage {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+p {
+    margin: 0;
+}
+
+.todoItemBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.completed .taskName{
+    text-decoration: line-through;
+}
+
+.completed {
+    background: gray;
+}
+
+.svg-icon {
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    fill: black;
+    overflow: hidden;
+}
+
+.todoItemEdit {
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.todoItemEdit:hover svg {
+    fill: #273db4;
+}
+
+.todoItemClose {
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.todoItemClose:hover svg {
+    fill: red;
+}
+
+.todoItemClose svg {
+    fill: #880303;
+}
+
+.inputBlock {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+
+.inputField {
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.inputButton {
+    border-radius: 20px;
+    padding: 10px;
+    background: #aef3ae;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.inputButton:hover {
+    background: #87de87;
+}
+
+.inputButton:disabled {
+    background: gray;
+}
+
+.react-date-picker__wrapper {
+    height: 40px;
+    border-radius: 20px;
+}

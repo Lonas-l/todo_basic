@@ -1,0 +1,71 @@
+.cancelEditButton {
+    background: #c06565;
+    padding: 5px 10px;
+    margin: 0 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+.todoItem {
+    display: flex;
+    width: 100%;
+    min-width: 400px;
+    border: 1px solid black;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    transition: 1s all;
+    cursor: pointer;
+    min-height: 52px;
+    box-sizing: border-box;
+}
+
+.todoItem:hover {
+    background: #bdd694;
+}
+
+.todoItemText {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 10px 5px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.taskTitle {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+input {
+    border-radius: 10px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 5px;
+}
+
+.due_date {
+    font-size: 12px;
+}
+
+.editedTitle {
+    font-size: 25px;
+}
+
+.taskName {
+    max-width: 300px;
+}
+
+.completed .taskName {
+    text-decoration: line-through !important;
+}
+
+.completed:hover {
+    background: gray;
+}

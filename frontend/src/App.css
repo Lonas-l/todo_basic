@@ -1,0 +1,30 @@
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding-top: 20px;
+}
+
+.Toastify__toast-theme--dark {
+  background: #b9d5b9;
+  color: white;
+  border: 2px solid #5bb75b;
+  border-radius: 25px;
+}
+.Toastify__close-button {
+  padding: 5px;
+  border-radius: 40%;
+  height: 30px;
+  width: 30px;
+}
+.Toastify__toast-theme--dark svg {
+  fill: white
+}
+.Toastify__toast--error svg {
+  fill: white
+}
+.Toastify__toast--error {
+  background: #d96969;
+}
+
